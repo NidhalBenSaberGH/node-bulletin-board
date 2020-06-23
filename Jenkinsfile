@@ -3,7 +3,6 @@ pipeline {
   stages {
       stage('Test') {
           steps {
-              cd node-bulletin-board
               sh 'node --version'
           }
       }
