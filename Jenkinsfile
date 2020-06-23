@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage('Test') {
           steps {
-              hostname
+              echo "example of jenkins file with docker"
           }
       }
   }
